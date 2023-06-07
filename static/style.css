@@ -1,0 +1,47 @@
+#container {
+    margin-left: 32vw;
+    margin-right: 32vw;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+#chatBox {
+    background-image: url("marvin_2.png");
+    background-color: white;
+    background-size: cover;
+    height:800px;
+    overflow: auto;
+}
+.userText {
+    float: right;
+    border: 2px solid black;
+    min-width: 10px;
+    border-radius: 25px;
+    background-color: #1e9fd4;
+    padding: 3px;
+}
+.botReply {
+    border: 2px solid black;
+    border-radius: 25px;
+    max-width: max-content;
+    background-color: #c4c4c4;
+    padding: 3px;
+}
+#textInput {
+    width: 100%;
+    height: 30px;
+    padding-right: 0;
+    border-width: 1px;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("space.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.welcomeText {
+    text-align: center;
+    font-size: x-large;
+    color: white;
+}
